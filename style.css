@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'RUDO',sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+/*Header Story*/
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    margin-bottom: 10px;
+    align-items: center;
+    position: sticky;
+    z-index: 10;
+    top:0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left h1 {
+    font-size: 35px;
+}
+
+.middle a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.middle a:hover {
+    font-weight: 500;
+    border-bottom: 0.5px solid grey;
+}
+
+.right {
+    display: flex;
+}
+
+.right div{
+    padding: 0 10px;
+}
+
+.pizza {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Main Page Story*/
+
+.main-container {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+}
+
+.main-page {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 30px;
+}
+
+.main-content {
+    position: relative;
+}
+
+.main-content .head-text {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 700px;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 101px;
+}
+
+.main-content .bottom-text {
+    position: absolute;
+    left: 50px;
+    bottom:150px;
+    width: 500px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/*ABout Story*/
+
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 80px 0 20px 0;
+}
+
+.about h1 {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    border-bottom:5px solid red ;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 40px 150px;
+    gap: 20px;
+}
+
+.about-image{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+/*MENU story*/
+
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 80px 0 20px 0;
+}
+
+.menu h1 {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    border-bottom: 5px solid red;
+}
+
+.menu .mtext {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.menu-text {
+    padding: 40px 150px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+    padding: 0 150px;
+}
+
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card-matter {
+    width: 40%;
+    margin-left: 10px;
+    justify-content: center;
+    gap: 10px;
+    padding: 60px 0;
+}
+
+.cards-container h3 {
+    color: #F2C94C;;
+}
+
+
+/*FIND US Story*/
+
+
+.find {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 80px 0 80px 0;
+}
+
+.find h1 {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 40px;
+    border-bottom: 5px solid red;
+}
+
+.find-text {
+    width: 400px;
+}
+
+
+.find-text p {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.non-image {
+    margin-top:20px ;
+}
+
+.find-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 40px 150px;
+    gap: 30px;
+}
+
+.location-image {
+    width: 600px;
+}
+
+.loc-image {
+    width: 600px;
+}
+
+.find-details {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+
+.location-details {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.phone-details {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+
+/*Footer Story*/
+
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 30px;
+}
+
+.footer-left {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.mail {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+.phone-footer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+@media (max-width:700px) {
+
+
+    .about-container {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+
+    .menu {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .cards-container {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .menu-text {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+
+
+
+
